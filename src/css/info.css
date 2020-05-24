@@ -1,0 +1,37 @@
+.info-content{
+    margin-right: 500px;
+    margin-top: -72px;
+}
+
+
+.hide-r-class{
+    opacity: 0%;
+}
+
+.show-r{
+    opacity: 100% !important;
+    color: #000;
+    /* visibility: hidden; */
+    /* transition: all ease-in-out 0.2s; */
+}
+
+.edu {
+    padding-left: 40px;
+}
+
+.half-br{
+    margin-top: 30px;
+}
+
+.section-6{
+    padding-bottom: 500px;
+}
+
+.expected{
+    opacity: 0%;
+}
+
+.exp:hover .expected {
+    opacity: 100%;
+    transition: all 0.3s;
+}

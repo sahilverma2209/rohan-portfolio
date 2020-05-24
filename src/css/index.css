@@ -1,0 +1,47 @@
+body{
+  margin: unset;
+  padding: unset;
+}
+
+/* Fonts */
+@font-face {
+  font-family: DMS-reg;
+  font-style: normal;
+  src:
+    url(../assets/fonts/DM_Sans/DMSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: DMS-med;
+  font-style: normal;
+  src:
+    url(../assets/fonts/DM_Sans/DMSans-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: DMS-imed;
+  font-style: normal;
+  src:
+    url(../assets/fonts/DM_Sans/DMSans-MediumItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: DMS-bold;
+  font-style: normal;
+  src:
+    url(../assets/fonts/DM_Sans/DMSans-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: DMS-ibold;
+  font-style: normal;
+  src:
+    url(../assets/fonts/DM_Sans/DMSans-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+  font-family: DMS-i;
+  font-style: normal;
+  src:
+    url(../assets/fonts/DM_Sans/DMSans-Italic.ttf) format('truetype');
+}
+
+
+*{
+  font-family: DMS-reg;
+}

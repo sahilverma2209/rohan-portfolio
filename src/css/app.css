@@ -1,0 +1,13 @@
+.main-section {
+    padding-top: 90px;
+    background: #fff;
+}
+
+.info-container{
+    margin: 0px 30px;
+    font-size: 64px;
+}
+
+.info-content{
+    text-transform: uppercase;
+}
