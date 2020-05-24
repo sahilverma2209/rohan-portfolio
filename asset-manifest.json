@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rohan-portfolio/static/css/main.adf26bf8.chunk.css",
+    "main.js": "/rohan-portfolio/static/js/main.c02066d2.chunk.js",
+    "main.js.map": "/rohan-portfolio/static/js/main.c02066d2.chunk.js.map",
+    "runtime-main.js": "/rohan-portfolio/static/js/runtime-main.4ed6cf08.js",
+    "runtime-main.js.map": "/rohan-portfolio/static/js/runtime-main.4ed6cf08.js.map",
+    "static/js/2.ea629d41.chunk.js": "/rohan-portfolio/static/js/2.ea629d41.chunk.js",
+    "static/js/2.ea629d41.chunk.js.map": "/rohan-portfolio/static/js/2.ea629d41.chunk.js.map",
+    "index.html": "/rohan-portfolio/index.html",
+    "precache-manifest.5a5eab43eba5344f44cf96f1c8d5436a.js": "/rohan-portfolio/precache-manifest.5a5eab43eba5344f44cf96f1c8d5436a.js",
+    "service-worker.js": "/rohan-portfolio/service-worker.js",
+    "static/css/main.adf26bf8.chunk.css.map": "/rohan-portfolio/static/css/main.adf26bf8.chunk.css.map",
+    "static/js/2.ea629d41.chunk.js.LICENSE.txt": "/rohan-portfolio/static/js/2.ea629d41.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/rohan-portfolio/static/media/DMSans-Regular.3e7f038b.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ed6cf08.js",
+    "static/js/2.ea629d41.chunk.js",
+    "static/css/main.adf26bf8.chunk.css",
+    "static/js/main.c02066d2.chunk.js"
+  ]
+}
