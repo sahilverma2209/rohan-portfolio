@@ -9,7 +9,7 @@ class Work extends React.Component {
     render(){
         return (
             <div className="work-container">
-                <video className="cover-video" poster="assets/PISSED-01.png" autoPlay loop>
+                <video className="cover-video" poster="assets/pissed/PISSED-01.png" autoPlay loop>
                     <source src="assets/pissed/PISSED-01.mp4" type="video/mp4" />
                 </video>
 
@@ -24,50 +24,50 @@ class Work extends React.Component {
 
                 <div className="work-sec-3">
                     <div className="sec-3-img-1">
-                        <img className="pissed-img" src="assets/pissed/PISSED-04.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-04.png"/>
                     </div>
                     <div className="sec-3-img-2">
-                        <img className="pissed-img" src="assets/pissed/PISSED-05.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-05.png"/>
                     </div>
                 </div>
                 <div className="work-sec-3">
                     <div className="sec-3-img-1">
-                        <img className="pissed-img" src="assets/pissed/PISSED-06.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-06.png"/>
                     </div>
                     <div className="sec-3-img-2">
-                        <img className="pissed-img" src="assets/pissed/PISSED-07.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-07.png"/>
                     </div>
                 </div>
                 <div className="work-sec-3">
                     <div className="sec-3-img-1">
-                        <img className="pissed-img" src="assets/pissed/PISSED-08.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-08.png"/>
                     </div>
                     <div className="sec-3-img-2">
-                        <img className="pissed-img" src="assets/pissed/PISSED-09.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-09.png"/>
                     </div>
                 </div>
                 <div className="work-sec-3">
                     <div className="sec-3-img-1">
-                        <img className="pissed-img" src="assets/pissed/PISSED-10.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-10.png"/>
                     </div>
                     <div className="sec-3-img-2">
-                        <img className="pissed-img" src="assets/pissed/PISSED-11.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-11.png"/>
                     </div>
                 </div>
                 <div className="work-sec-3">
                     <div className="sec-3-img-1">
-                        <img className="pissed-img" src="assets/pissed/PISSED-12.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-12.png"/>
                     </div>
                     <div className="sec-3-img-2">
-                        <img className="pissed-img" src="assets/pissed/PISSED-13.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-13.png"/>
                     </div>
                 </div>
                 <div className="work-sec-3">
                     <div className="sec-3-img-1">
-                        <img className="pissed-img" src="assets/pissed/PISSED-14.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-14.png"/>
                     </div>
                     <div className="sec-3-img-2">
-                        <img className="pissed-img" src="assets/pissed/PISSED-15.png"/>
+                        <img alt="img" className="pissed-img" src="assets/pissed/PISSED-15.png"/>
                     </div>
                 </div>
             </div>

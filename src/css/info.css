@@ -5,11 +5,11 @@
 
 
 .hide-r-class{
-    opacity: 0%;
+    opacity: 0;
 }
 
 .show-r{
-    opacity: 100% !important;
+    opacity: 1 !important;
     color: #000;
     /* visibility: hidden; */
     /* transition: all ease-in-out 0.2s; */
@@ -28,10 +28,15 @@
 }
 
 .expected{
-    opacity: 0%;
+    opacity: 0;
 }
 
 .exp:hover .expected {
-    opacity: 100%;
+    opacity: 1;
     transition: all 0.3s;
+}
+
+@media all and (max-width: 768px) { 
+
+    
 }

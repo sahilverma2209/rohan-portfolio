@@ -16,7 +16,7 @@ class Nav extends React.Component {
 
     componentWillUpdate(nextProps, _){
         console.log(nextProps.path,  window.location.pathname)
-        if(nextProps.path === "info" && window.location.pathname == "/info"){
+        if(nextProps.path === "info" && window.location.pathname === "/info"){
             setTimeout(() => {
                 document.getElementById("R-hide").classList.add("fade-out-nav-left")
             }, 500)
