@@ -1,3 +1,243 @@
 .main-container {
-    min-height: 100vh;
+    min-height: calc(100vh - 90px);
+    width: calc(100vw - 40px);
+    margin: 20px;
 }
+
+.project-section{
+    display:flex;
+    flex-direction: column;
+    /* margin-top: 300px; */
+    margin-bottom: 300px;
+}
+.add-bottom-margin{
+    margin-bottom: 100px;
+}
+
+.moon {
+    margin-top: 20px !important;
+}
+.work-section-heading{
+    margin-right: 382px;
+    margin-left: -4.5px;
+}
+.work-section-content {
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 420px;
+}
+
+.bottom-space {
+    margin-bottom: 70px;
+}
+
+.water-sec-1, .water-sec-2 , .water-sec-3, .water-sec-4, .water-sec-5, .water-sec-6 {
+    display: flex;
+    margin-top: 20px;
+    max-width: calc(100vw - 40px);
+    justify-content: space-between;
+}
+
+.water-img-1{
+    width: 50%;
+    margin: 0 auto;
+    height: 50%;
+}
+
+.water-img-3, .water-img-4, .water-img-7{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.water-sec-5-img-5, .water-sec-5-img-6 {
+    flex: 1;
+}
+.water-sec-5-img-6{ 
+    margin-left: 20px;
+}
+.water-img-5, .water-img-6 {
+    width: 100%;
+    height: 100%;
+}
+
+.cover-video{
+    width: 100%;
+    height: auto;
+}
+
+.pissed-sec-2, .pissed-sec-3{
+    display: flex;
+}
+
+.sec-2-video-1, .sec-2-video-2{
+    width: 50%;
+}
+
+.sec-2-video-1{
+    background: blue;
+}
+
+.pissed-sec-3{
+    max-width: calc(100vw - 40px);
+    display:flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.sec-3-img-1{
+    flex: 1;
+}
+.sec-3-img-2{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.pissed-img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* moon */
+.moon-sec-1, .moon-sec-2, .moon-sec-3, .moon-sec-4, .moon-sec-5, .moon-sec-6{
+    display: flex;
+    margin-top: 20px;
+    max-width: calc(100vw - 40px);
+    justify-content: space-between;
+}
+
+.moon-img-1, .moon-img-2, .moon-img-3, .moon-img-4, .moon-img-5, .moon-img-6, .moon-img-7, .moon-img-8, .moon-img-9 {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.moon-sec-3-img-3, .moon-sec-3-img-4, .moon-sec-4-img-5, .moon-sec-4-img-6, .moon-sec-6-img-8, .moon-sec-6-img-9 {
+    flex: 1;
+}
+
+.moon-sec-3-img-4, .moon-sec-4-img-6, .moon-sec-6-img-9  {
+    margin-left: 20px;
+}
+
+.cover-video{
+    margin-top: 20px;
+}
+
+
+@media all and (max-width: 1200px) { 
+    .work-section-heading{
+        margin-right: 100px;
+    }
+    .work-section-content {
+        margin-right: 250px;
+        padding-left: 45px;
+
+    }
+}
+@media all and (max-width: 834px) { 
+
+    .work-section-heading{
+        margin-left: -3.3px;
+    }
+    .cover-video{
+        margin-top: 15px;
+    }
+
+    .main-container{
+        margin: 0 auto;
+        font-size: 42px;
+        transition: font-size 0.3s;
+        width: calc(100vw - 30px);
+    }
+
+    .water-img-1, .moon-img-1{
+        width: 100%;
+        height: 100%;
+    }
+
+    .water-sec-1, .water-sec-2 , .water-sec-3, .water-sec-4, .water-sec-5, .water-sec-6 {
+        max-width: calc(100vw - 30px);
+    }
+
+    .moon-sec-1, .moon-sec-2, .moon-sec-3, .moon-sec-4, .moon-sec-5, .moon-sec-6{
+        max-width: calc(100vw - 30px);
+    }
+
+    .moon-sec-3-img-4, .moon-sec-4-img-6, .moon-sec-6-img-9  {
+        margin-left: 15px;
+    }
+}
+
+@media all and (max-width: 575px) { 
+
+    .main-container{
+        margin: 0 auto;
+        font-size: 24px;
+        transition: font-size 0.3s;
+        width: calc(100vw - 20px);
+    }
+
+    .project-section{
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+
+    .work-section-content {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 25px;
+    }
+
+    .work-section-heading{
+        margin-right: 25px;
+        margin-left: -1.9px;
+    }
+
+    .cover-video{
+        margin-top: 10px;
+    }
+
+    .water-sec-1, .water-sec-2 , .water-sec-3, .water-sec-4, .water-sec-5, .water-sec-6 {
+        max-width: calc(100vw - 20px);
+        margin-top: 10px;
+    }
+
+    .moon-sec-1, .moon-sec-2, .moon-sec-3, .moon-sec-4, .moon-sec-5, .moon-sec-6{
+        max-width: calc(100vw - 20px);
+        margin-top: 10px;
+    }
+    .moon-sec-3-img-4, .moon-sec-4-img-6, .moon-sec-6-img-9  {
+        margin-left: 10px;
+    }
+
+    .water-sec-5 {
+        flex-direction: column;
+    }
+
+    .water-img-6{
+        margin-top: 10px;
+    }
+
+    .water-img-1{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .pissed-sec-3{
+        margin: 10px auto 0px;
+        max-width: calc(100vw - 20px);
+    }
+
+    .sec-3-img-2{
+        margin-left: 10px;
+    }
+}
+
+

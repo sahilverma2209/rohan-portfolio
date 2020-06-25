@@ -1,42 +1,148 @@
-.info-content{
-    margin-right: 500px;
-    margin-top: -72px;
+.info-container{
+    margin: 0px 15px;
+    font-size: 64px;
+    transition: font-size 0.3s;
 }
 
+.info-content{
+    margin-right: 420px;
+    margin-top: -110px;
+}
 
 .hide-r-class{
     opacity: 0;
 }
 
+
+.info-content{
+    text-transform: uppercase;
+}
+
 .show-r{
     opacity: 1 !important;
     color: #000;
+    /* z-index: 100; */
     /* visibility: hidden; */
     /* transition: all ease-in-out 0.2s; */
 }
 
-.edu {
-    padding-left: 40px;
+.section-content {
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    padding-top: 64px;
 }
 
-.half-br{
-    margin-top: 30px;
+.edu-bach, .recog{
+    padding-top: 30px;
 }
 
-.section-6{
+.section-0, .recog-1{
+    padding-top: 0px;
+}
+
+.section-9{
     padding-bottom: 500px;
 }
-
+.edu-uni{
+    position: relative;
+}
 .expected{
+    position: absolute;
+    margin-left: 20px;
     opacity: 0;
 }
 
-.exp:hover .expected {
+.edu-masters:hover .expected {
     opacity: 1;
     transition: all 0.3s;
 }
 
-@media all and (max-width: 768px) { 
+@media all and (max-width: 1200px) { 
+    .info-container{
+        margin: 0px 20px;
+        font-size: 54px;
+        transition: font-size 0.3s;
+    }
 
+    .info-content{
+        margin-top: -108px;
+        margin-right: 250px;
+    }
+
+    .section{
+        padding-top: 30px;
+    }
     
+    .section-0{
+        padding-top: 0px;
+    }
+
+    .section-content {
+        padding-left: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .expected{
+        display: none;
+    }
+
+    .section-9{
+        padding-bottom: 280px;
+    }
+}
+
+@media all and (max-width: 834px) { 
+    .info-container{
+        margin: 0px 15px;
+        font-size: 42px;
+        transition: font-size 0.3s;
+    }
+
+    .info-content{
+        margin-top: -83px;
+        margin-right: 75px;
+    }
+}
+
+@media all and (max-width: 575px) { 
+    .info-container{
+        margin: 0px 5px;
+        font-size: 24px;
+        transition: font-size 0.3s;
+    }
+
+    .info-content{
+        margin-top: -37px;
+        margin-right: 120px;
+    }
+
+    .edu {
+        padding-left: 20px;
+    }
+
+    .section{
+        padding-top: 30px;
+    }
+    
+    .section-0{
+        padding-top: 0px;
+    }
+
+    .section-content {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .expected{
+        display: none;
+    }
+
+    .section-9{
+        padding-bottom: 280px;
+    }
 }

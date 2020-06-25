@@ -3,6 +3,10 @@ body{
   padding: unset;
 }
 
+#root{
+  position: relative;
+}
+
 /* Fonts */
 @font-face {
   font-family: DMS-reg;
