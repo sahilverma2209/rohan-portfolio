@@ -110,7 +110,7 @@
 
 @media all and (max-width: 575px) { 
     .info-container{
-        margin: 0px 5px;
+        margin: 0px 10px;
         font-size: 24px;
         transition: font-size 0.3s;
     }
