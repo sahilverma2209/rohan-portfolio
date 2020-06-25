@@ -70,13 +70,14 @@ class Nav extends React.Component {
 
     render(){
         const isBigScreen = this.state.isBigScreen
+        const isMobile = window.matchMedia("(max-width: 575px)").matches
         console.log(isBigScreen)
         return (
-            <div id="nav-cont" className="nav-container" onresize={this.sizeChange}>
-                <div id="R-hide" className="nav-left">R<span className="fullname">OHAN REGE</span></div> 
+            <div id="nav-cont" className={`nav-container ${this.state.dropdownOpen ? 'nav-cont-mob' : ''}`} onresize={this.sizeChange} >
+                <div id="R-hide" className={`nav-left ${this.state.dropdownOpen ? 'nav-black' : ''}`} >R<span className="fullname">OHAN REGE</span></div> 
                 
 
-                <div className="nav-right">
+                <div className={`nav-right ${this.state.dropdownOpen ? 'nav-black-right' : ''}`} onClick={isMobile ? (this.state.dropdownOpen ? this.closeDropdown : this.openDropdown) : null}>
                 {isBigScreen ?
                     ( !this.state.dropdownOpen ? 
                         <div className="nav-right-text" onClick={this.openDropdown}><span className="hamb">HAMBURGE</span>R</div> :
@@ -86,7 +87,7 @@ class Nav extends React.Component {
                     <React.Fragment>
                         <button id="hb" class="hamburger hamburger--spring" type="button" onClick={this.state.dropdownOpen ? this.closeDropdown : this.openDropdown}>
                                 <span class="hamburger-box">
-                                <span class="hamburger-inner"></span>
+                                <span class={`hamburger-inner ${this.state.dropdownOpen ? 'hamburger-inner-mob' : ''}`}></span>
                                 </span>
                         </button>
                         {/* <div className="cover-border"></div> */}

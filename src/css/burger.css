@@ -22,13 +22,6 @@
         width: 50px !important;
         background: white !important;
     }
-    
-    .hamburger--spring.is-active .hamburger-inner::before{
-        /* background: black !important;  */
-    }
-    .hamburger--spring.is-active .hamburger-inner::after{
-        /* background: black !important;  */
-    }
 
     .hamburger-inner::before{
         top: 15px !important;
@@ -42,6 +35,11 @@
     }
     .hamburger--spring.is-active .hamburger-inner::after {
         transform: translate3d(0, -15px, 0) rotate(45deg) !important;
+    }
+
+    .hamburger-inner-mob::before, .hamburger-inner-mob::after {
+        background: black !important;
+        transition: all .3s;
     }
 
     .drop-link{
@@ -120,6 +118,8 @@
     .hamburger--spring.is-active .hamburger-inner::after {
         transform: translate3d(0, -7px, 0) rotate(45deg) !important;
     }
+
+    
 }
 
 
