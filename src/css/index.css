@@ -5,6 +5,7 @@ body{
 
 #root{
   position: relative;
+  background: white;
 }
 
 /* Fonts */
@@ -48,4 +49,14 @@ body{
 
 *{
   font-family: DMS-reg;
+}
+
+
+
+/* iphone inline video */
+.IIV::-webkit-media-controls-play-button,
+.IIV::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
 }

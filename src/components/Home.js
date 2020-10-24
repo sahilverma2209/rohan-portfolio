@@ -1,5 +1,7 @@
 import React from 'react';
+import enableInlineVideo from 'iphone-inline-video';
 import '../css/home.css';
+import axios from 'axios';
 
 class Home extends React.Component {
 
@@ -9,6 +11,14 @@ class Home extends React.Component {
 
     async componentDidMount(){
         setTimeout(() => this.props.changePath(''), 300)
+
+        var videos = document.querySelectorAll('video');
+        console.log("video tag = ",videos)
+
+        for(var i = 0; i < videos.length; i++){
+            enableInlineVideo(videos[i]);
+        }
+
     }
 
     render(){
